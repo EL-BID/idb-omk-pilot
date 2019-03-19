@@ -15,17 +15,35 @@ OpenMapKit (OMK) allows users to complete data collection surveys in the field t
 
 #### Creating a survey
 
-* XLSForm (Survey Format) http://xlsform.org/en/
+OMK adds geospatial data collection capabilities to [ODK surveys](https://docs.opendatakit.org/) by extending the [XLSForm standard](http://xlsform.org/en/) used by ODK for specifying surveys with OSM related fields.
+
+OMK provides [documentation](http://openmapkit.org/docs_odkformsforomk.html) for creating a survey, as well as a sample survey [form](https://docs.google.com/spreadsheets/d/11H4-mGYTS61GLjSbVoTbmhoI5DjlF5fcBwNwQcvd2Go/edit#gid=0).
+
+Once a survey form has been created, it needs to be uploaded to the OMK server. Login to the OMK administration dashboard, and click the "Upload Form" button in the header.
+
+<img width="371" src="https://user-images.githubusercontent.com/1042475/54620928-4efa5580-4a3d-11e9-9f20-65a2c3418a95.png">
+
+If the form does not contain any errors, you should see the following message.
+
+<img width="1158" src="https://user-images.githubusercontent.com/1042475/54621169-b57f7380-4a3d-11e9-8ad9-ab277e46ab8b.png">
 
 #### Filling out a survey
 
-* https://docs.opendatakit.org/
+To fill out the survey you created, you must first point the ODK Collect App at the IDB OMK server. This can be set under the Server section of the General Settings menu.
 
-The client app must be configured to point to the IDB OMK server
-<img src="https://user-images.githubusercontent.com/1014341/50118987-639d3680-021f-11e9-910d-a0509d9b4f76.png" width="250px">
+<img src="https://user-images.githubusercontent.com/1014341/50118987-639d3680-021f-11e9-910d-a0509d9b4f76.png" width="300px">
 
-When filling out the survey, any geospatial questions will launch OMK and be able to add nodes with attributes
-<img src="https://user-images.githubusercontent.com/1014341/50118981-6304a000-021f-11e9-9dbe-50393f6b5d03.png" width="250px">
+Back on the app home screen, click the "Get Blank Form" button. This will download a list of all the forms available on the server. Once the list is populated, select the form you want and click "Get Selected". The form should now be downloaded to your device.
+
+From the home screen, click "Fill Blank Form", and select the survey you would like to complete. The survey should now launch. Swipe left to proceed through the survey questions.
+
+When you reach an OMK question in the survey, you will be prompted to launch the OMK app. The OMK questions are different than the other survey questions in that they involve adding a node to the map and filling out attributes about that node instead of just answering a question. When OMK opens, click the "Add Node" button (the round button with a "+"), and then click a spot on the map to add a point (lines and polygons are not supported). After the node is added, a form will appear with the OSM attributes that were specified in the survey.
+
+<img src="https://user-images.githubusercontent.com/1014341/50118981-6304a000-021f-11e9-9dbe-50393f6b5d03.png" width="300px">
+
+Fill in the relevant attributes by clicking on the form and swiping through each attribute. After you complete the geospatial components of the survey, click "Save to ODK Collect", and you'll be redirected back to the ODK app. Proceed through the rest of the survey.
+
+When you finish the survey, you need to send the completed survey back to the OMK server. This step requires an internet connection. If you are without internet in the field, you can wait until you have a connection because the survey results are stored locally on your device. Once you have a connection, click the "Send Finalized Form" button on the ODK app home screen. Check any surveys that you have completed, and then click "Send Selected". The results of the survey will now be available on the server.
 
 #### Survey administration
 
