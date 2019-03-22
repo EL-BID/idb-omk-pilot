@@ -1,6 +1,3 @@
-Visit the [Publication Guide](el-bid.github.io/guia-de-publicacion/) (currently available in Spanish) for more information about how to publish digital tools.
-To learn more about the Code for Development initiative, visit: www.code.iadb.org
-
 ### IDB OpenMapKit Pilot
 ### Description and Context
 ---
@@ -10,6 +7,8 @@ OpenMapKit (OMK) allows users to complete data collection surveys in the field t
 - OMK Server
 - OMK Survey App
 - OpenDataKit (ODK) Collect App
+
+Note that OMK Server is under continuous development. Currently deploying a functioning server involves many challenging technical steps.
 
 ### User Guide
 
@@ -80,6 +79,15 @@ OMK Server requires that Docker is available on the host machine. However, withi
 ### OMK Survey App
 
 The OMK app can be installed via the [Play store](https://play.google.com/store/apps/details?id=org.redcross.openmapkit&hl=en_US).
+
+#### Offline Tiles
+
+The OMK app can operate offline and show basemaps which have been copied to the device in the `mbtiles` format.
+Prepare an `mbtiles` package by using the [HOT Export Tool](https://export.hotosm.org/) following [these directions](http://openmapkit.org/docs_creatingbasemaps.html)
+
+Once generated, copy the `mbtiles` to your Android device and place in `/<storage>/openmapkit/mbtiles`. Do not put the `mbtiles` in a subfolder of that directory. They will then appear as an option on the OMK basemap selector. Since `mbtiles` are large, it may make sense to break them apart by zoom levels or geographic area when generating them.
+
+Note that the ODK Collect app also has support for offline basemaps and uses the same mechanism. Copy the mbtiles to `/<storage>/odk/layers`. More complete instructions can be found [here](https://docs.opendatakit.org/collect-offline-maps/).
 
 ### ODK Collect App
 
