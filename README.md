@@ -112,7 +112,9 @@ The OMK software was originally developed by the [POSM team](https://github.com/
 ### License
 ---
 
-[AM-331-A3 Licencia de Software](LICENSE.md)
+The Documentation of Support and Use of the software is licensed under Creative Commons IGO 3.0 Attribution-NonCommercial-NoDerivative (CC-IGO 3.0 BY-NC-ND)
+
+The codebase of this repo uses [AM-331-A3 Software License](LICENSE.md).
 
 ### Limitation of responsibilities
 ---
