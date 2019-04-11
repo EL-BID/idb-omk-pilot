@@ -1,4 +1,4 @@
-<img align="right" width="115" height="49" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/img/IDB_logo.jpg"><img align="right" height="39" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/img/azavea_logo.png">
+<img align="right" height="39" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/img/azavea_logo.png"><img align="right" width="115" height="49" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/img/IDB_logo.jpg">
 
 
 ## IDB OpenMapKit Pilot                                                        
