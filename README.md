@@ -1,4 +1,5 @@
-## IDB OpenMapKit Pilot                                                        ![IDB Logo](IDB_logo.jpg)
+<img align="right" width="100" height="100" src="https://github.com/EL-BID/idb-omk-pilot/edit/master/IDB_logo.jpg">
+## IDB OpenMapKit Pilot                                                        
 ### Description and Context
 ---
 
