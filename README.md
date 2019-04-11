@@ -1,4 +1,4 @@
-### IDB OpenMapKit Pilot
+## IDB OpenMapKit Pilot                                                        ![IDB Logo](IDB_logo.jpg)
 ### Description and Context
 ---
 
