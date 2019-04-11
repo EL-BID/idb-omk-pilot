@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/IDB_logo.jpg">
+<img align="right" width="234" height="100" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/IDB_logo.jpg">
 
 ## IDB OpenMapKit Pilot                                                        
 ### Description and Context
