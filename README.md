@@ -1,7 +1,8 @@
 <img align="right" height="39" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/img/azavea_logo.png"><img align="right" width="115" height="49" src="https://github.com/EL-BID/idb-omk-pilot/blob/master/img/IDB_logo.jpg">
 
 
-## IDB OpenMapKit Pilot                                                        
+## IDB OpenMapKit Pilot 
+[![Analytics](https://gabeacon.irvinlim.com/UA-4677001-16/idb-omk-pilot/readme?useReferer)](https://github.com/EL-BID/idb-omk-pilot/)
 ### Description and Context
 ---
 
